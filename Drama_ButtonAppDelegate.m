@@ -47,12 +47,10 @@
 }
 
 - (IBAction)playDrama:(id)sender {	
-
 	if ([randomMenuItem state] == 1)
 		[[soundsArray objectAtIndex:[self getRandomNumber:0 to:[soundsArray count]-1]] play];
 	else 
 		[[soundsArray objectAtIndex:0] play];
-	
 	
 }
 

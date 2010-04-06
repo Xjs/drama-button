@@ -328,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5BB9DE81116B8E1D00242AD8</string>
+										<string>5BB9DE8E116B8F9400242AD8</string>
 										<key>history</key>
 										<array>
 											<string>5B511762116B732800AC3AC1</string>
@@ -660,7 +660,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>5BB9DE82116B8E1D00242AD8</string>
+		<string>5BB9DE8F116B8F9400242AD8</string>
 		<string>5BB9DE5E116B8D6C00242AD8</string>
 		<string>5BB9DE5F116B8D6C00242AD8</string>
 		<string>/Users/martin/Projects/Drama/Drama Button/Drama Button.xcodeproj</string>
