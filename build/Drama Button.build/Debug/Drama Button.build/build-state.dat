@@ -1,0 +1,569 @@
+TDrama Button
+v7
+r0
+t292259542.056383
+cCheck dependencies
+cProcessInfoPlistFile "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Info.plist" Drama_Button-Info.plist
+cCopyStringsFile "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib"
+cCpResource "build/Debug/Drama Button.app/Contents/Resources/drama1.wav" drama1.wav
+cCpResource "build/Debug/Drama Button.app/Contents/Resources/drama2.wav" drama2.wav
+cCpResource "build/Debug/Drama Button.app/Contents/Resources/drama3.wav" drama3.wav
+cCpResource "build/Debug/Drama Button.app/Contents/Resources/drama4.mp3" drama4.mp3
+cCpResource "build/Debug/Drama Button.app/Contents/Resources/drama.png" drama.png
+cCpResource "build/Debug/Drama Button.app/Contents/Resources/Credits.rtf" Credits.rtf
+cCpResource "build/Debug/Drama Button.app/Contents/Resources/dramaclicked.png" dramaclicked.png
+cProcessPCH /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-fqzdbmfmabtjjahkimjcuhokmgzi/Drama_Button_Prefix.pch.gch Drama_Button_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/main.o" "/Users/martin/Projects/Drama/Drama Button/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/Drama_ButtonAppDelegate.o" "/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/BorderlessWindow.o" "/Users/martin/Projects/Drama/Drama Button/BorderlessWindow.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/RoundedView.o" "/Users/martin/Projects/Drama/Drama Button/RoundedView.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/DramaButtonButton.o" "/Users/martin/Projects/Drama/Drama Button/DramaButtonButton.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/MacOS/Drama Button" normal x86_64
+cTouch "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app"
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004AB44D2500000000000000EE
+t1253330213
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004ABBF0FD00000000000000EE
+t1253830909
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/martin/Projects/Drama/Drama Button/76057__digifishmusic__Dramatic11.wav
+c000000004BBB298900000000000817CC
+t1270557065
+s530380
+
+N/Users/martin/Projects/Drama/Drama Button/76058__digifishmusic__Dramatic2.wav
+c000000004BBB2986000000000008BE00
+t1270557062
+s572928
+
+N/Users/martin/Projects/Drama/Drama Button/76066__digifishmusic__Dramatic_1.wav
+c000000004BBB29560000000000067A5C
+t1270557014
+s424540
+
+N/Users/martin/Projects/Drama/Drama Button/BorderlessWindow.h
+c000000004BBB3BA300000000000000E3
+t1270561699
+s227
+i<Cocoa/Cocoa.h>
+
+N/Users/martin/Projects/Drama/Drama Button/BorderlessWindow.m
+c000000004BBB38B9000000000000039E
+t1270560953
+s926
+i"BorderlessWindow.h"
+
+N/Users/martin/Projects/Drama/Drama Button/Credits.rtf
+c000000004BBB4F53000000000000055D
+t1270566739
+s1373
+
+N/Users/martin/Projects/Drama/Drama Button/Drama.mp3
+c000000004BBB2E4D00000000000487AD
+t1270558285
+s296877
+
+N/Users/martin/Projects/Drama/Drama Button/DramaButtonButton.h
+c000000004BBB462900000000000000E9
+t1270564393
+s233
+i<Cocoa/Cocoa.h>
+
+N/Users/martin/Projects/Drama/Drama Button/DramaButtonButton.m
+c000000004BBB47C900000000000000E3
+t1270564809
+s227
+i"DramaButtonButton.h"
+
+N/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.h
+c000000004BBB4D250000000000000236
+t1270566181
+s566
+i<Cocoa/Cocoa.h>
+
+N/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m
+c000000004BBB4DAB0000000000000535
+t1270566315
+s1333
+i"Drama_ButtonAppDelegate.h"
+
+N/Users/martin/Projects/Drama/Drama Button/Drama_Button_Prefix.pch
+c000000004BBB2827000000000000009B
+t1270556711
+s155
+i<Cocoa/Cocoa.h>
+
+N/Users/martin/Projects/Drama/Drama Button/English.lproj/InfoPlist.strings
+c000000004BBB2827000000000000002D
+t1270556711
+s45
+
+N/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib
+c000000004BBB4EA40000000000030935
+t1270566564
+s198965
+
+N/Users/martin/Projects/Drama/Drama Button/RoundedFrame.h
+c000000004BBB35B800000000000000DB
+t1270560184
+s219
+i<Cocoa/Cocoa.h>
+
+N/Users/martin/Projects/Drama/Drama Button/RoundedFrame.m
+c000000004BBB35B800000000000000D1
+t1270560184
+s209
+i"RoundedFrame.h"
+
+N/Users/martin/Projects/Drama/Drama Button/RoundedView.h
+c000000004BBB371500000000000000D7
+t1270560533
+s215
+i<Cocoa/Cocoa.h>
+
+N/Users/martin/Projects/Drama/Drama Button/RoundedView.m
+c000000004BBB39660000000000000370
+t1270561126
+s880
+i"RoundedView.h"
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app
+t1270566742
+s102
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Info.plist
+t1270565756
+s930
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/MacOS/Drama Button
+t1270566316
+s20112
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/PkgInfo
+t1270565756
+s8
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/76057__digifishmusic__Dramatic11.wav
+t1270558299
+s530380
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/76058__digifishmusic__Dramatic2.wav
+t1270558299
+s572928
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/76066__digifishmusic__Dramatic_1.wav
+t1270558299
+s424540
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/Credits.rtf
+t1270566742
+s1373
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/Drama.mp3
+t2
+s0
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1270558299
+s92
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/English.lproj/MainMenu.nib
+t1270566565
+s38891
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/drama-1.png
+t2
+s0
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/drama.png
+t1270564028
+s26086
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/drama1.wav
+t1270558567
+s530380
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/drama2.wav
+t1270558567
+s572928
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/drama3.wav
+t1270558567
+s424540
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/drama4.mp3
+t1270558567
+s296877
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/dramaclicked-1.png
+t2
+s0
+
+N/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/dramaclicked.png
+t1270566443
+s25832
+
+N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/BorderlessWindow.o
+t1270566169
+s15724
+
+N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/Drama Button.LinkFileList
+c000000004BBB39DD0000000000000290
+t1270561245
+s656
+
+N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/DramaButtonButton.o
+t1270566169
+s5564
+
+N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/Drama_ButtonAppDelegate.o
+t1270566316
+s26544
+
+N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/RoundedFrame.o
+t1270560331
+s5472
+
+N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/RoundedView.o
+t1270566169
+s17660
+
+N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/main.o
+t1270566169
+s5000
+
+N/Users/martin/Projects/Drama/Drama Button/drama-1.png
+c000000004BBB448800000000000065E6
+t1270563976
+s26086
+
+N/Users/martin/Projects/Drama/Drama Button/drama.png
+c000000004BBB448800000000000065E6
+t1270563976
+s26086
+
+N/Users/martin/Projects/Drama/Drama Button/drama1.wav
+c000000004BBB298900000000000817CC
+t1270557065
+s530380
+
+N/Users/martin/Projects/Drama/Drama Button/drama2.wav
+c000000004BBB2986000000000008BE00
+t1270557062
+s572928
+
+N/Users/martin/Projects/Drama/Drama Button/drama3.wav
+c000000004BBB29560000000000067A5C
+t1270557014
+s424540
+
+N/Users/martin/Projects/Drama/Drama Button/drama4.mp3
+c000000004BBB2E4D00000000000487AD
+t1270558285
+s296877
+
+N/Users/martin/Projects/Drama/Drama Button/dramaclicked-1.png
+c000000004BBB4E1400000000000064E8
+t1270566420
+s25832
+
+N/Users/martin/Projects/Drama/Drama Button/dramaclicked.png
+c000000004BBB4E1400000000000064E8
+t1270566420
+s25832
+
+N/Users/martin/Projects/Drama/Drama Button/main.m
+c000000004BBB28270000000000000104
+t1270556711
+s260
+i<Cocoa/Cocoa.h>
+
+N/var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-dwtgxyyutufmhtcwswifdkgwvmvs/Drama_Button_Prefix.pch.gch
+t1270558306
+s54212368
+
+N/var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-fqzdbmfmabtjjahkimjcuhokmgzi/Drama_Button_Prefix.pch.gch
+t1270566169
+s51188016
+
+NDrama_Button-Info.plist
+c000000004BBB4B7C0000000000000407
+t1270565756
+s1031
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies292259542#292259542#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC "build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/BorderlessWindow.o" "/Users/martin/Projects/Drama/Drama Button/BorderlessWindow.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s292258969.293868
+e292258969.539721
+r1
+xCompileC
+xbuild/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/BorderlessWindow.o
+x/Users/martin/Projects/Drama/Drama Button/BorderlessWindow.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/martin/Projects/Drama/Drama Button/BorderlessWindow.m292258969#292258969#0(0"0(0#0#60"/Users/martin/Projects/Drama/Drama Button/BorderlessWindow.m4300885448#1629"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Debug" "-I/Users/martin/Projects/Drama/Drama Button/build/Debug/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources/x86_64" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources" -include /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-fqzdbmfmabtjjahkimjcuhokmgzi/Drama_Button_Prefix.pch -c "/Users/martin/Projects/Drama/Drama Button/BorderlessWindow.m" -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/BorderlessWindow.o"0#
+
+CCompileC "build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/DramaButtonButton.o" "/Users/martin/Projects/Drama/Drama Button/DramaButtonButton.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s292258969.539858
+e292258969.711641
+r1
+xCompileC
+xbuild/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/DramaButtonButton.o
+x/Users/martin/Projects/Drama/Drama Button/DramaButtonButton.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/martin/Projects/Drama/Drama Button/DramaButtonButton.m292258969#292258969#0(0"0(0#0#61"/Users/martin/Projects/Drama/Drama Button/DramaButtonButton.m4300885448#1631"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Debug" "-I/Users/martin/Projects/Drama/Drama Button/build/Debug/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources/x86_64" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources" -include /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-fqzdbmfmabtjjahkimjcuhokmgzi/Drama_Button_Prefix.pch -c "/Users/martin/Projects/Drama/Drama Button/DramaButtonButton.m" -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/DramaButtonButton.o"0#
+
+CCompileC "build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/Drama_ButtonAppDelegate.o" "/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s292259116.160055
+e292259116.636049
+r1
+xCompileC
+xbuild/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/Drama_ButtonAppDelegate.o
+x/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m292259116#292259116#0(0"0(0#0#67"/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m4300885448#1643"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Debug" "-I/Users/martin/Projects/Drama/Drama Button/build/Debug/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources/x86_64" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources" -include /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-fqzdbmfmabtjjahkimjcuhokmgzi/Drama_Button_Prefix.pch -c "/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m" -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/Drama_ButtonAppDelegate.o"0#
+
+CCompileC "build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/RoundedFrame.o" "/Users/martin/Projects/Drama/Drama Button/RoundedFrame.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s292253131.668343
+e292253131.867554
+r1
+xCompileC
+xbuild/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/RoundedFrame.o
+x/Users/martin/Projects/Drama/Drama Button/RoundedFrame.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/martin/Projects/Drama/Drama Button/RoundedFrame.m292253131#292253131#0(0"0(0#0#56"/Users/martin/Projects/Drama/Drama Button/RoundedFrame.m4300885448#1621"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Debug" "-I/Users/martin/Projects/Drama/Drama Button/build/Debug/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources/x86_64" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources" -include /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-dwtgxyyutufmhtcwswifdkgwvmvs/Drama_Button_Prefix.pch -c "/Users/martin/Projects/Drama/Drama Button/RoundedFrame.m" -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/RoundedFrame.o"0#
+
+CCompileC "build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/RoundedView.o" "/Users/martin/Projects/Drama/Drama Button/RoundedView.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s292258969.332958
+e292258969.569716
+r1
+xCompileC
+xbuild/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/RoundedView.o
+x/Users/martin/Projects/Drama/Drama Button/RoundedView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/martin/Projects/Drama/Drama Button/RoundedView.m292258969#292258969#0(0"0(0#0#55"/Users/martin/Projects/Drama/Drama Button/RoundedView.m4300885448#1619"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Debug" "-I/Users/martin/Projects/Drama/Drama Button/build/Debug/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources/x86_64" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources" -include /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-fqzdbmfmabtjjahkimjcuhokmgzi/Drama_Button_Prefix.pch -c "/Users/martin/Projects/Drama/Drama Button/RoundedView.m" -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/RoundedView.o"0#
+
+CCompileC "build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/main.o" "/Users/martin/Projects/Drama/Drama Button/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s292258969.066823
+e292258969.332823
+r1
+xCompileC
+xbuild/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/main.o
+x/Users/martin/Projects/Drama/Drama Button/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/martin/Projects/Drama/Drama Button/main.m292258969#292258969#0(0"0(0#0#48"/Users/martin/Projects/Drama/Drama Button/main.m4300885448#1605"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Debug" "-I/Users/martin/Projects/Drama/Drama Button/build/Debug/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources/x86_64" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources" -include /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-fqzdbmfmabtjjahkimjcuhokmgzi/Drama_Button_Prefix.pch -c "/Users/martin/Projects/Drama/Drama Button/main.m" -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/main.o"0#
+
+CCompileXIB "/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib"
+s292259365.135892
+e292259365.974221
+r1
+xCompileXIB
+x/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib:566: note: This view is clipping its content.
+o/* com.apple.ibtool.document.warnings */
+o/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib:371: warning: "HUD Window Mask" is only available on NSPanel instances.  To rectify, change the custom class to NSPanel and use the Attributes inspector.
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib292259365#292259365#0(419"/* com.apple.ibtool.document.notices *//Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib:566: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib:371: warning: "HUD Window Mask" is only available on NSPanel instances.  To rectify, change the custom class to NSPanel and use the Attributes inspector.2(13@34"This view is clipping its content.292259365#18446744073709551615#0#0(6@68"/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib292259364#566#0#566#0#0"0(22@139""HUD Window Mask" is only available on NSPanel instances.  To rectify, change the custom class to NSPanel and use the Attributes inspector.292259365#18446744073709551615#0#0(6@68"/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib292259364#371#0#371#0#0"0(0#0#68"/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib4300885448#347"    cd "/Users/martin/Projects/Drama/Drama Button"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib"0#
+
+CCopyStringsFile "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s292251098.219630
+e292251099.671539
+r1
+xCopyStringsFile
+x/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings292251098#292251099#0(0"0(0#0#73"/Users/martin/Projects/Drama/Drama Button/English.lproj/InfoPlist.strings4300885448#380"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources/English.lproj"0#
+
+CCpResource "build/Debug/Drama Button.app/Contents/Resources/76057__digifishmusic__Dramatic11.wav" 76057__digifishmusic__Dramatic11.wav
+s292251099.671657
+e292251099.733595
+r1
+xCpResource
+xbuild/Debug/Drama Button.app/Contents/Resources/76057__digifishmusic__Dramatic11.wav
+x76057__digifishmusic__Dramatic11.wav
+lSLF07#2@41"Copy 76057__digifishmusic__Dramatic11.wav292251099#292251099#0(0"0(0#0#78"/Users/martin/Projects/Drama/Drama Button/76057__digifishmusic__Dramatic11.wav4300885448#372"    cd "/Users/martin/Projects/Drama/Drama Button"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/martin/Projects/Drama/Drama Button/76057__digifishmusic__Dramatic11.wav" "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources"0#
+
+CCpResource "build/Debug/Drama Button.app/Contents/Resources/76058__digifishmusic__Dramatic2.wav" 76058__digifishmusic__Dramatic2.wav
+s292251099.672884
+e292251099.779365
+r1
+xCpResource
+xbuild/Debug/Drama Button.app/Contents/Resources/76058__digifishmusic__Dramatic2.wav
+x76058__digifishmusic__Dramatic2.wav
+lSLF07#2@40"Copy 76058__digifishmusic__Dramatic2.wav292251099#292251099#0(0"0(0#0#77"/Users/martin/Projects/Drama/Drama Button/76058__digifishmusic__Dramatic2.wav4300885448#371"    cd "/Users/martin/Projects/Drama/Drama Button"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/martin/Projects/Drama/Drama Button/76058__digifishmusic__Dramatic2.wav" "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources"0#
+
+CCpResource "build/Debug/Drama Button.app/Contents/Resources/76066__digifishmusic__Dramatic_1.wav" 76066__digifishmusic__Dramatic_1.wav
+s292251099.673935
+e292251099.766156
+r1
+xCpResource
+xbuild/Debug/Drama Button.app/Contents/Resources/76066__digifishmusic__Dramatic_1.wav
+x76066__digifishmusic__Dramatic_1.wav
+lSLF07#2@41"Copy 76066__digifishmusic__Dramatic_1.wav292251099#292251099#0(0"0(0#0#78"/Users/martin/Projects/Drama/Drama Button/76066__digifishmusic__Dramatic_1.wav4300885448#372"    cd "/Users/martin/Projects/Drama/Drama Button"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/martin/Projects/Drama/Drama Button/76066__digifishmusic__Dramatic_1.wav" "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources"0#
+
+CCpResource "build/Debug/Drama Button.app/Contents/Resources/Credits.rtf" Credits.rtf
+s292259542.043033
+e292259542.049899
+r1
+xCpResource
+xbuild/Debug/Drama Button.app/Contents/Resources/Credits.rtf
+xCredits.rtf
+lSLF07#2@16"Copy Credits.rtf292259542#292259542#0(0"0(0#0#53"/Users/martin/Projects/Drama/Drama Button/Credits.rtf4300885448#347"    cd "/Users/martin/Projects/Drama/Drama Button"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/martin/Projects/Drama/Drama Button/Credits.rtf" "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources"0#
+
+CCpResource "build/Debug/Drama Button.app/Contents/Resources/Drama.mp3" Drama.mp3
+r0
+
+CCpResource "build/Debug/Drama Button.app/Contents/Resources/drama-1.png" drama-1.png
+r0
+
+CCpResource "build/Debug/Drama Button.app/Contents/Resources/drama.png" drama.png
+s292256828.571999
+e292256828.595715
+r1
+xCpResource
+xbuild/Debug/Drama Button.app/Contents/Resources/drama.png
+xdrama.png
+lSLF07#2@14"Copy drama.png292256828#292256828#0(0"0(0#0#51"/Users/martin/Projects/Drama/Drama Button/drama.png4300885448#345"    cd "/Users/martin/Projects/Drama/Drama Button"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/martin/Projects/Drama/Drama Button/drama.png" "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources"0#
+
+CCpResource "build/Debug/Drama Button.app/Contents/Resources/drama1.wav" drama1.wav
+s292251367.527239
+e292251367.961341
+r1
+xCpResource
+xbuild/Debug/Drama Button.app/Contents/Resources/drama1.wav
+xdrama1.wav
+lSLF07#2@15"Copy drama1.wav292251367#292251367#0(0"0(0#0#52"/Users/martin/Projects/Drama/Drama Button/drama1.wav4300885448#346"    cd "/Users/martin/Projects/Drama/Drama Button"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/martin/Projects/Drama/Drama Button/drama1.wav" "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources"0#
+
+CCpResource "build/Debug/Drama Button.app/Contents/Resources/drama2.wav" drama2.wav
+s292251367.528022
+e292251367.943878
+r1
+xCpResource
+xbuild/Debug/Drama Button.app/Contents/Resources/drama2.wav
+xdrama2.wav
+lSLF07#2@15"Copy drama2.wav292251367#292251367#0(0"0(0#0#52"/Users/martin/Projects/Drama/Drama Button/drama2.wav4300885448#346"    cd "/Users/martin/Projects/Drama/Drama Button"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/martin/Projects/Drama/Drama Button/drama2.wav" "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources"0#
+
+CCpResource "build/Debug/Drama Button.app/Contents/Resources/drama3.wav" drama3.wav
+s292251367.528723
+e292251367.925608
+r1
+xCpResource
+xbuild/Debug/Drama Button.app/Contents/Resources/drama3.wav
+xdrama3.wav
+lSLF07#2@15"Copy drama3.wav292251367#292251367#0(0"0(0#0#52"/Users/martin/Projects/Drama/Drama Button/drama3.wav4300885448#346"    cd "/Users/martin/Projects/Drama/Drama Button"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/martin/Projects/Drama/Drama Button/drama3.wav" "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources"0#
+
+CCpResource "build/Debug/Drama Button.app/Contents/Resources/drama4.mp3" drama4.mp3
+s292251367.529367
+e292251367.925825
+r1
+xCpResource
+xbuild/Debug/Drama Button.app/Contents/Resources/drama4.mp3
+xdrama4.mp3
+lSLF07#2@15"Copy drama4.mp3292251367#292251367#0(0"0(0#0#52"/Users/martin/Projects/Drama/Drama Button/drama4.mp34300885448#346"    cd "/Users/martin/Projects/Drama/Drama Button"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/martin/Projects/Drama/Drama Button/drama4.mp3" "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources"0#
+
+CCpResource "build/Debug/Drama Button.app/Contents/Resources/dramaclicked-1.png" dramaclicked-1.png
+r0
+
+CCpResource "build/Debug/Drama Button.app/Contents/Resources/dramaclicked.png" dramaclicked.png
+s292259243.233389
+e292259243.264520
+r1
+xCpResource
+xbuild/Debug/Drama Button.app/Contents/Resources/dramaclicked.png
+xdramaclicked.png
+lSLF07#2@21"Copy dramaclicked.png292259243#292259243#0(0"0(0#0#58"/Users/martin/Projects/Drama/Drama Button/dramaclicked.png4300885448#352"    cd "/Users/martin/Projects/Drama/Drama Button"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/martin/Projects/Drama/Drama Button/dramaclicked.png" "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Resources"0#
+
+CLd "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/MacOS/Drama Button" normal x86_64
+s292259116.636166
+e292259116.672505
+r1
+xLd
+x/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/MacOS/Drama Button
+xnormal
+xx86_64
+lSLF07#2@103"Link /Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/MacOS/Drama Button292259116#292259116#0(0"0(0#0#0"4300885448#592"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/martin/Projects/Drama/Drama Button/build/Debug" "-F/Users/martin/Projects/Drama/Drama Button/build/Debug" -filelist "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/Drama Button.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -o "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/MacOS/Drama Button"0#
+
+CProcessInfoPlistFile "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Info.plist" Drama_Button-Info.plist
+s292258556.644376
+e292258556.764006
+r1
+xProcessInfoPlistFile
+x/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Info.plist
+xDrama_Button-Info.plist
+lSLF07#2@31"Process Drama_Button-Info.plist292258556#292258556#0(0"0(0#0#65"/Users/martin/Projects/Drama/Drama Button/Drama_Button-Info.plist4300885448#340"    cd "/Users/martin/Projects/Drama/Drama Button"    builtin-infoPlistUtility Drama_Button-Info.plist -genpkginfo "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-dwtgxyyutufmhtcwswifdkgwvmvs/Drama_Button_Prefix.pch.gch Drama_Button_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s292251100.559558
+e292251106.424392
+r1
+xProcessPCH
+x/var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-dwtgxyyutufmhtcwswifdkgwvmvs/Drama_Button_Prefix.pch.gch
+xDrama_Button_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile Drama_Button_Prefix.pch292251100#292251106#0(0"0(0#0#65"/Users/martin/Projects/Drama/Drama Button/Drama_Button_Prefix.pch4300885448#1501"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Debug" "-I/Users/martin/Projects/Drama/Drama Button/build/Debug/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources/x86_64" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources" -c "/Users/martin/Projects/Drama/Drama Button/Drama_Button_Prefix.pch" -o /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-dwtgxyyutufmhtcwswifdkgwvmvs/Drama_Button_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-fqzdbmfmabtjjahkimjcuhokmgzi/Drama_Button_Prefix.pch.gch Drama_Button_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s292258965.593951
+e292258969.066545
+r1
+xProcessPCH
+x/var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-fqzdbmfmabtjjahkimjcuhokmgzi/Drama_Button_Prefix.pch.gch
+xDrama_Button_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile Drama_Button_Prefix.pch292258965#292258969#0(0"0(0#0#65"/Users/martin/Projects/Drama/Drama Button/Drama_Button_Prefix.pch4300885448#1501"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Debug" "-I/Users/martin/Projects/Drama/Drama Button/build/Debug/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources/x86_64" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources" -c "/Users/martin/Projects/Drama/Drama Button/Drama_Button_Prefix.pch" -o /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-fqzdbmfmabtjjahkimjcuhokmgzi/Drama_Button_Prefix.pch.gch0#
+
+CTouch "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app"
+s292259542.052715
+e292259542.056330
+r1
+xTouch
+x/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app
+lSLF07#2@76"Touch /Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app292259542#292259542#0(0"0(0#0#0"4300885448#146"    cd "/Users/martin/Projects/Drama/Drama Button"    /usr/bin/touch -c "/Users/martin/Projects/Drama/Drama Button/build/Debug/Drama Button.app"0#
+
