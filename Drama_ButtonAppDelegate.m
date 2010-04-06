@@ -16,7 +16,10 @@
 	// Listen to command-option-control-D
 	id block = ^(NSEvent* event){
 		NSLog(@"%@", event);
-		if ([event modifierFlags] & (NSAlternateKeyMask | NSCommandKeyMask | NSControlKeyMask) && ([event keyCode] == 2)) { // 2: d key
+		if ([event modifierFlags] & NSAlternateKeyMask &&
+			[event modifierFlags] & NSCommandKeyMask &&
+			[event modifierFlags] & NSControlKeyMask &&
+			([event keyCode] == 2)) { // 2: d key
 			[[NSNotificationCenter defaultCenter] postNotificationName:@"playDrama" object:nil];
 		}
 	};

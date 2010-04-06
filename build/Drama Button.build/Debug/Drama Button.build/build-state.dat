@@ -1,7 +1,7 @@
 TDrama Button
 v7
 r0
-t292270145.578456
+t292271254.878328
 cCheck dependencies
 cProcessInfoPlistFile "/Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app/Contents/Info.plist" Drama_Button-Info.plist
 cCopyStringsFile "/Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
@@ -83,9 +83,9 @@ s664
 i<Cocoa/Cocoa.h>
 
 N/Users/jannis/src/objc/drama-button/Drama_ButtonAppDelegate.m
-c000000004BBB785C0000000000000972
-t1270577244
-s2418
+c000000004BBB7D1600000000000009AB
+t1270578454
+s2475
 i"Drama_ButtonAppDelegate.h"
 
 N/Users/jannis/src/objc/drama-button/Drama_Button_Prefix.pch
@@ -117,7 +117,7 @@ s880
 i"RoundedView.h"
 
 N/Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app
-t1270577345
+t1270578454
 s102
 
 N/Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app/Contents/Info.plist
@@ -125,7 +125,7 @@ t1270575743
 s930
 
 N/Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app/Contents/MacOS/Drama Button
-t1270577247
+t1270578454
 s24696
 
 N/Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app/Contents/PkgInfo
@@ -182,8 +182,8 @@ t1270575749
 s5548
 
 N/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/Drama_ButtonAppDelegate.o
-t1270577247
-s33524
+t1270578454
+s33620
 
 N/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/RoundedView.o
 t1270575748
@@ -244,7 +244,7 @@ s1031
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies292270145#292270145#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies292271254#292271254#0(0"0(0#1#0"32088628383449192#0"0#
 
 CCompileC "build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/BorderlessWindow.o" /Users/jannis/src/objc/drama-button/BorderlessWindow.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s292268548.761210
@@ -273,8 +273,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@63"Compile /Users/jannis/src/objc/drama-button/DramaButtonButton.m292268548#292268549#0(0"0(0#0#55"/Users/jannis/src/objc/drama-button/DramaButtonButton.m4300885448#1557"    cd /Users/jannis/src/objc/drama-button    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-project-headers.hmap" -F/Users/jannis/src/objc/drama-button/build/Debug -I/Users/jannis/src/objc/drama-button/build/Debug/include "-I/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources/x86_64" "-I/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources" -include /var/folders/l1/l1Iv0wMNH5adtkhzPfiaZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-gciemudiedlzkxfmwkyottfbgxza/Drama_Button_Prefix.pch -c /Users/jannis/src/objc/drama-button/DramaButtonButton.m -o "/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/DramaButtonButton.o"0#
 
 CCompileC "build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/Drama_ButtonAppDelegate.o" /Users/jannis/src/objc/drama-button/Drama_ButtonAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s292270046.711874
-e292270047.093740
+s292271254.447603
+e292271254.838715
 r1
 xCompileC
 xbuild/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/Drama_ButtonAppDelegate.o
@@ -283,7 +283,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/jannis/src/objc/drama-button/Drama_ButtonAppDelegate.m292270046#292270047#0(0"0(0#0#61"/Users/jannis/src/objc/drama-button/Drama_ButtonAppDelegate.m4300885448#1569"    cd /Users/jannis/src/objc/drama-button    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-project-headers.hmap" -F/Users/jannis/src/objc/drama-button/build/Debug -I/Users/jannis/src/objc/drama-button/build/Debug/include "-I/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources/x86_64" "-I/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources" -include /var/folders/l1/l1Iv0wMNH5adtkhzPfiaZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-gciemudiedlzkxfmwkyottfbgxza/Drama_Button_Prefix.pch -c /Users/jannis/src/objc/drama-button/Drama_ButtonAppDelegate.m -o "/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/Drama_ButtonAppDelegate.o"0#
+lSLF07#2@69"Compile /Users/jannis/src/objc/drama-button/Drama_ButtonAppDelegate.m292271254#292271254#0(0"0(0#0#61"/Users/jannis/src/objc/drama-button/Drama_ButtonAppDelegate.m4300885448#1569"    cd /Users/jannis/src/objc/drama-button    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-project-headers.hmap" -F/Users/jannis/src/objc/drama-button/build/Debug -I/Users/jannis/src/objc/drama-button/build/Debug/include "-I/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources/x86_64" "-I/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources" -include /var/folders/l1/l1Iv0wMNH5adtkhzPfiaZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-gciemudiedlzkxfmwkyottfbgxza/Drama_Button_Prefix.pch -c /Users/jannis/src/objc/drama-button/Drama_ButtonAppDelegate.m -o "/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/Drama_ButtonAppDelegate.o"0#
 
 CCompileC "build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/RoundedView.o" /Users/jannis/src/objc/drama-button/RoundedView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s292268548.822617
@@ -396,14 +396,14 @@ xdramaclicked.png
 lSLF07#2@21"Copy dramaclicked.png292268544#292268544#0(0"0(0#0#52"/Users/jannis/src/objc/drama-button/dramaclicked.png4300885448#330"    cd /Users/jannis/src/objc/drama-button    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jannis/src/objc/drama-button/dramaclicked.png "/Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app/Contents/Resources"0#
 
 CLd "/Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app/Contents/MacOS/Drama Button" normal x86_64
-s292270047.093828
-e292270047.129163
+s292271254.838801
+e292271254.875810
 r1
 xLd
 x/Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app/Contents/MacOS/Drama Button
 xnormal
 xx86_64
-lSLF07#2@97"Link /Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app/Contents/MacOS/Drama Button292270047#292270047#0(0"0(0#0#0"4300885448#556"    cd /Users/jannis/src/objc/drama-button    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jannis/src/objc/drama-button/build/Debug -F/Users/jannis/src/objc/drama-button/build/Debug -filelist "/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/Drama Button.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -o "/Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app/Contents/MacOS/Drama Button"0#
+lSLF07#2@97"Link /Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app/Contents/MacOS/Drama Button292271254#292271254#0(0"0(0#0#0"4300885448#556"    cd /Users/jannis/src/objc/drama-button    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jannis/src/objc/drama-button/build/Debug -F/Users/jannis/src/objc/drama-button/build/Debug -filelist "/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Objects-normal/x86_64/Drama Button.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -o "/Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app/Contents/MacOS/Drama Button"0#
 
 CProcessInfoPlistFile "/Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app/Contents/Info.plist" Drama_Button-Info.plist
 s292268543.794868
@@ -431,10 +431,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@34"Precompile Drama_Button_Prefix.pch292268544#292268548#0(0"0(0#0#59"/Users/jannis/src/objc/drama-button/Drama_Button_Prefix.pch4300885448#1433"    cd /Users/jannis/src/objc/drama-button    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/Drama Button-project-headers.hmap" -F/Users/jannis/src/objc/drama-button/build/Debug -I/Users/jannis/src/objc/drama-button/build/Debug/include "-I/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources/x86_64" "-I/Users/jannis/src/objc/drama-button/build/Drama Button.build/Debug/Drama Button.build/DerivedSources" -c /Users/jannis/src/objc/drama-button/Drama_Button_Prefix.pch -o /var/folders/l1/l1Iv0wMNH5adtkhzPfiaZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-gciemudiedlzkxfmwkyottfbgxza/Drama_Button_Prefix.pch.gch0#
 
 CTouch "/Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app"
-s292270145.575883
-e292270145.578429
+s292271254.875898
+e292271254.878296
 r1
 xTouch
 x/Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app
-lSLF07#2@70"Touch /Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app292270145#292270145#0(0"0(0#0#0"4300885448#132"    cd /Users/jannis/src/objc/drama-button    /usr/bin/touch -c "/Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app"0#
+lSLF07#2@70"Touch /Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app292271254#292271254#0(0"0(0#0#0"4300885448#132"    cd /Users/jannis/src/objc/drama-button    /usr/bin/touch -c "/Users/jannis/src/objc/drama-button/build/Debug/Drama Button.app"0#
 
