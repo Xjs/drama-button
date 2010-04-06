@@ -20,7 +20,12 @@
 					   [NSSound soundNamed:@"drama4.mp3"], nil];
 	
 	[alwaysPlayItem setHidden:YES];
-	[window setLevel:NSScreenSaverWindowLevel];
+
+	
+	if ([alwaysOnTopMenuItem state] == NSOnState)
+		[window setLevel:NSScreenSaverWindowLevel];
+	else 
+		[window setLevel:NSNormalWindowLevel];
 }
 
 - (void)awakeFromNib
@@ -49,6 +54,15 @@
 		[[soundsArray objectAtIndex:0] play];
 	
 	
+}
+
+- (IBAction)alwaysOnTopSettingChanged:(id)sender {
+	if (![alwaysOnTopMenuItem state] == NSOnState)
+		[window setLevel:NSScreenSaverWindowLevel];
+	else 
+		[window setLevel:NSNormalWindowLevel];
+	
+
 }
 
 -(int)getRandomNumber:(int)from to:(int)to {

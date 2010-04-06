@@ -1,7 +1,7 @@
 TDrama Button
 v7
 r0
-t292260707.120527
+t292261404.526224
 cCheck dependencies
 cProcessInfoPlistFile "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Info.plist" Drama_Button-Info.plist
 cCopyStringsFile "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
@@ -21,13 +21,13 @@ cCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/x8
 cCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/BorderlessWindow.o" "/Users/martin/Projects/Drama/Drama Button/BorderlessWindow.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/RoundedView.o" "/Users/martin/Projects/Drama/Drama Button/RoundedView.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/DramaButtonButton.o" "/Users/martin/Projects/Drama/Drama Button/DramaButtonButton.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama Button" normal x86_64
 cCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/main.o" "/Users/martin/Projects/Drama/Drama Button/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama_ButtonAppDelegate.o" "/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/BorderlessWindow.o" "/Users/martin/Projects/Drama/Drama Button/BorderlessWindow.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/RoundedView.o" "/Users/martin/Projects/Drama/Drama Button/RoundedView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/DramaButtonButton.o" "/Users/martin/Projects/Drama/Drama Button/DramaButtonButton.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama Button" normal i386
+cLd "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama Button" normal x86_64
 cCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/main.o" "/Users/martin/Projects/Drama/Drama Button/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama_ButtonAppDelegate.o" "/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m" normal ppc objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/BorderlessWindow.o" "/Users/martin/Projects/Drama/Drama Button/BorderlessWindow.m" normal ppc objective-c com.apple.compilers.gcc.4_2
@@ -83,15 +83,15 @@ s227
 i"DramaButtonButton.h"
 
 N/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.h
-c000000004BBB4D250000000000000236
-t1270566181
-s566
+c000000004BBB55390000000000000297
+t1270568249
+s663
 i<Cocoa/Cocoa.h>
 
 N/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m
-c000000004BBB53D30000000000000588
-t1270567891
-s1416
+c000000004BBB569B00000000000006B2
+t1270568603
+s1714
 i"Drama_ButtonAppDelegate.h"
 
 N/Users/martin/Projects/Drama/Drama Button/Drama_Button_Prefix.pch
@@ -106,9 +106,9 @@ t1270556711
 s45
 
 N/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib
-c000000004BBB4EA40000000000030935
-t1270566564
-s198965
+c000000004BBB55DF0000000000031321
+t1270568415
+s201505
 
 N/Users/martin/Projects/Drama/Drama Button/RoundedView.h
 c000000004BBB371500000000000000D7
@@ -127,8 +127,8 @@ t1270566811
 s13880
 
 N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama Button
-t1270567892
-s20868
+t1270568604
+s21036
 
 N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama Button.LinkFileList
 c000000004BBB4F730000000000000290
@@ -140,8 +140,8 @@ t1270566811
 s4836
 
 N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama_ButtonAppDelegate.o
-t1270567892
-s20656
+t1270568604
+s21436
 
 N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/RoundedView.o
 t1270566811
@@ -156,8 +156,8 @@ t1270566811
 s14020
 
 N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama Button
-t1270567893
-s20320
+t1270568604
+s20488
 
 N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama Button.LinkFileList
 c000000004BBB4F73000000000000028B
@@ -169,8 +169,8 @@ t1270566812
 s4904
 
 N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama_ButtonAppDelegate.o
-t1270567893
-s21640
+t1270568604
+s22476
 
 N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/RoundedView.o
 t1270566812
@@ -185,8 +185,8 @@ t1270566806
 s15804
 
 N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama Button
-t1270567892
-s19896
+t1270568604
+s20232
 
 N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama Button.LinkFileList
 c000000004BBB4F73000000000000029A
@@ -198,8 +198,8 @@ t1270566806
 s5568
 
 N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama_ButtonAppDelegate.o
-t1270567892
-s28196
+t1270568604
+s29556
 
 N/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/RoundedView.o
 t1270566806
@@ -210,11 +210,11 @@ t1270566805
 s5056
 
 N/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app
-t1270567893
+t1270568604
 s102
 
 N/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app.dSYM
-t1270567893
+t1270568604
 s102
 
 N/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Info.plist
@@ -222,8 +222,8 @@ t1270566771
 s930
 
 N/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/MacOS/Drama Button
-t1270567893
-s69472
+t1270568604
+s69640
 
 N/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/PkgInfo
 t1270566771
@@ -238,8 +238,8 @@ t1270566771
 s92
 
 N/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources/English.lproj/MainMenu.nib
-t1270566772
-s38891
+t1270568427
+s39454
 
 N/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources/drama.png
 t1270566771
@@ -320,7 +320,7 @@ s1031
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies292260707#292260707#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies292261403#292261403#0(0"0(0#1#0"4300885448#0"0#
 
 CCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/BorderlessWindow.o" "/Users/martin/Projects/Drama/Drama Button/BorderlessWindow.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s292259610.983451
@@ -349,8 +349,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@69"Compile /Users/martin/Projects/Drama/Drama Button/DramaButtonButton.m292259611#292259611#0(0"0(0#0#61"/Users/martin/Projects/Drama/Drama Button/DramaButtonButton.m4300885448#1661"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" "-I/Users/martin/Projects/Drama/Drama Button/build/Release/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources/i386" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources" -include /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-gokjbukvajhrbxefzqgkimtfryhq/Drama_Button_Prefix.pch -c "/Users/martin/Projects/Drama/Drama Button/DramaButtonButton.m" -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/DramaButtonButton.o"0#
 
 CCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama_ButtonAppDelegate.o" "/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s292260691.916870
-e292260692.552520
+s292261403.775749
+e292261404.140509
 r1
 xCompileC
 xbuild/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama_ButtonAppDelegate.o
@@ -359,7 +359,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m292260691#292260692#0(0"0(0#0#67"/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m4300885448#1673"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" "-I/Users/martin/Projects/Drama/Drama Button/build/Release/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources/i386" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources" -include /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-gokjbukvajhrbxefzqgkimtfryhq/Drama_Button_Prefix.pch -c "/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m" -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama_ButtonAppDelegate.o"0#
+lSLF07#2@75"Compile /Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m292261403#292261404#0(0"0(0#0#67"/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m4300885448#1673"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" "-I/Users/martin/Projects/Drama/Drama Button/build/Release/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources/i386" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources" -include /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-gokjbukvajhrbxefzqgkimtfryhq/Drama_Button_Prefix.pch -c "/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m" -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama_ButtonAppDelegate.o"0#
 
 CCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/RoundedView.o" "/Users/martin/Projects/Drama/Drama Button/RoundedView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s292259611.202301
@@ -414,8 +414,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@69"Compile /Users/martin/Projects/Drama/Drama Button/DramaButtonButton.m292259612#292259612#0(0"0(0#0#61"/Users/martin/Projects/Drama/Drama Button/DramaButtonButton.m4300885448#1655"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" "-I/Users/martin/Projects/Drama/Drama Button/build/Release/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources/ppc" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources" -include /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-anzjadavwoplmmcnddqqpdanwshe/Drama_Button_Prefix.pch -c "/Users/martin/Projects/Drama/Drama Button/DramaButtonButton.m" -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/DramaButtonButton.o"0#
 
 CCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama_ButtonAppDelegate.o" "/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m" normal ppc objective-c com.apple.compilers.gcc.4_2
-s292260692.884891
-e292260693.176408
+s292261404.224756
+e292261404.461796
 r1
 xCompileC
 xbuild/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama_ButtonAppDelegate.o
@@ -424,7 +424,7 @@ xnormal
 xppc
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m292260692#292260693#0(0"0(0#0#67"/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m4300885448#1667"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" "-I/Users/martin/Projects/Drama/Drama Button/build/Release/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources/ppc" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources" -include /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-anzjadavwoplmmcnddqqpdanwshe/Drama_Button_Prefix.pch -c "/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m" -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama_ButtonAppDelegate.o"0#
+lSLF07#2@75"Compile /Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m292261404#292261404#0(0"0(0#0#67"/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m4300885448#1667"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" "-I/Users/martin/Projects/Drama/Drama Button/build/Release/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources/ppc" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources" -include /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-anzjadavwoplmmcnddqqpdanwshe/Drama_Button_Prefix.pch -c "/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m" -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama_ButtonAppDelegate.o"0#
 
 CCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/RoundedView.o" "/Users/martin/Projects/Drama/Drama Button/RoundedView.m" normal ppc objective-c com.apple.compilers.gcc.4_2
 s292259611.994585
@@ -479,8 +479,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@69"Compile /Users/martin/Projects/Drama/Drama Button/DramaButtonButton.m292259606#292259606#0(0"0(0#0#61"/Users/martin/Projects/Drama/Drama Button/DramaButtonButton.m4300885448#1667"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" "-I/Users/martin/Projects/Drama/Drama Button/build/Release/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources/x86_64" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources" -include /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-eevigcfdtyohxhfnvqbzuzfwgzor/Drama_Button_Prefix.pch -c "/Users/martin/Projects/Drama/Drama Button/DramaButtonButton.m" -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/DramaButtonButton.o"0#
 
 CCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama_ButtonAppDelegate.o" "/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s292260691.439167
-e292260692.616938
+s292261403.772616
+e292261404.174778
 r1
 xCompileC
 xbuild/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama_ButtonAppDelegate.o
@@ -489,7 +489,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m292260691#292260692#0(0"0(0#0#67"/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m4300885448#1679"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" "-I/Users/martin/Projects/Drama/Drama Button/build/Release/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources/x86_64" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources" -include /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-eevigcfdtyohxhfnvqbzuzfwgzor/Drama_Button_Prefix.pch -c "/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m" -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama_ButtonAppDelegate.o"0#
+lSLF07#2@75"Compile /Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m292261403#292261404#0(0"0(0#0#67"/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m4300885448#1679"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" "-I/Users/martin/Projects/Drama/Drama Button/build/Release/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources/x86_64" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources" -include /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-eevigcfdtyohxhfnvqbzuzfwgzor/Drama_Button_Prefix.pch -c "/Users/martin/Projects/Drama/Drama Button/Drama_ButtonAppDelegate.m" -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama_ButtonAppDelegate.o"0#
 
 CCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/RoundedView.o" "/Users/martin/Projects/Drama/Drama Button/RoundedView.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s292259605.998618
@@ -518,8 +518,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@56"Compile /Users/martin/Projects/Drama/Drama Button/main.m292259604#292259605#0(0"0(0#0#48"/Users/martin/Projects/Drama/Drama Button/main.m4300885448#1641"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" "-I/Users/martin/Projects/Drama/Drama Button/build/Release/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources/x86_64" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources" -include /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-eevigcfdtyohxhfnvqbzuzfwgzor/Drama_Button_Prefix.pch -c "/Users/martin/Projects/Drama/Drama Button/main.m" -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/main.o"0#
 
 CCompileXIB "/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib"
-s292259571.409798
-e292259572.543005
+s292261226.313722
+e292261227.608676
 r1
 xCompileXIB
 x/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib
@@ -527,7 +527,7 @@ o/* com.apple.ibtool.document.notices */
 o/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib:566: note: This view is clipping its content.
 o/* com.apple.ibtool.document.warnings */
 o/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib:371: warning: "HUD Window Mask" is only available on NSPanel instances.  To rectify, change the custom class to NSPanel and use the Attributes inspector.
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib292259571#292259572#0(419"/* com.apple.ibtool.document.notices *//Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib:566: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib:371: warning: "HUD Window Mask" is only available on NSPanel instances.  To rectify, change the custom class to NSPanel and use the Attributes inspector.2(13@34"This view is clipping its content.292259572#18446744073709551615#0#0(6@68"/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib292259364#566#0#566#0#0"0(22@139""HUD Window Mask" is only available on NSPanel instances.  To rectify, change the custom class to NSPanel and use the Attributes inspector.292259572#18446744073709551615#0#0(6@68"/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib292259364#371#0#371#0#0"0(0#0#68"/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib4300885448#349"    cd "/Users/martin/Projects/Drama/Drama Button"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib"0#
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib292261226#292261227#0(419"/* com.apple.ibtool.document.notices *//Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib:566: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib:371: warning: "HUD Window Mask" is only available on NSPanel instances.  To rectify, change the custom class to NSPanel and use the Attributes inspector.2(13@34"This view is clipping its content.292261227#18446744073709551615#0#0(6@68"/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib292261215#566#0#566#0#0"0(22@139""HUD Window Mask" is only available on NSPanel instances.  To rectify, change the custom class to NSPanel and use the Attributes inspector.292261227#18446744073709551615#0#0(6@68"/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib292261215#371#0#371#0#0"0(0#0#68"/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib32088490945478768#349"    cd "/Users/martin/Projects/Drama/Drama Button"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib"0#
 
 CCopyStringsFile "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
 s292259571.408659
@@ -602,53 +602,53 @@ xdramaclicked.png
 lSLF07#2@21"Copy dramaclicked.png292259571#292259571#0(0"0(0#0#58"/Users/martin/Projects/Drama/Drama Button/dramaclicked.png4300885448#375"    cd "/Users/martin/Projects/Drama/Drama Button"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/martin/Projects/Drama/Drama Button/dramaclicked.png" "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources"0#
 
 CCreateUniversalBinary "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/MacOS/Drama Button" normal "x86_64 i386 ppc"
-s292260693.230017
-e292260693.260217
+s292261404.499465
+e292261404.503653
 r1
 xCreateUniversalBinary
 x/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/MacOS/Drama Button
 xnormal
 xx86_64 i386 ppc
-lSLF07#2@107"CreateUniversalBinary "build/Release/Drama Button.app/Contents/MacOS/Drama Button" normal "x86_64 i386 ppc"292260693#292260693#0(0"0(0#0#57"/Users/martin/Projects/Drama/Drama Button/x86_64 i386 ppc4300885448#576"    cd "/Users/martin/Projects/Drama/Drama Button"    /usr/bin/lipo -create "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama Button" "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama Button" "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama Button" -output "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/MacOS/Drama Button"0#
+lSLF07#2@107"CreateUniversalBinary "build/Release/Drama Button.app/Contents/MacOS/Drama Button" normal "x86_64 i386 ppc"292261404#292261404#0(0"0(0#0#57"/Users/martin/Projects/Drama/Drama Button/x86_64 i386 ppc4300885448#576"    cd "/Users/martin/Projects/Drama/Drama Button"    /usr/bin/lipo -create "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama Button" "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama Button" "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama Button" -output "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/MacOS/Drama Button"0#
 
 CGenerateDSYMFile "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app.dSYM" "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/MacOS/Drama Button"
-s292260693.260633
-e292260693.342110
+s292261404.503763
+e292261404.522851
 r1
 xGenerateDSYMFile
 x/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app.dSYM
 x/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/MacOS/Drama Button
-lSLF07#2@115"GenerateDSYMFile "build/Release/Drama Button.app.dSYM" "build/Release/Drama Button.app/Contents/MacOS/Drama Button"292260693#292260693#0(0"0(0#0#100"/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/MacOS/Drama Button4300885448#269"    cd "/Users/martin/Projects/Drama/Drama Button"    /Developer/usr/bin/dsymutil "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/MacOS/Drama Button" -o "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app.dSYM"0#
+lSLF07#2@115"GenerateDSYMFile "build/Release/Drama Button.app.dSYM" "build/Release/Drama Button.app/Contents/MacOS/Drama Button"292261404#292261404#0(0"0(0#0#100"/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/MacOS/Drama Button4300885448#269"    cd "/Users/martin/Projects/Drama/Drama Button"    /Developer/usr/bin/dsymutil "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/MacOS/Drama Button" -o "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app.dSYM"0#
 
 CLd "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama Button" normal i386
-s292260692.552995
-e292260692.940512
+s292261404.141219
+e292261404.224465
 r1
 xLd
 x/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama Button
 xnormal
 xi386
-lSLF07#2@131"Link /Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama Button292260692#292260692#0(0"0(0#0#0"4300885448#622"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/martin/Projects/Drama/Drama Button/build/Release" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" -filelist "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama Button.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama Button"0#
+lSLF07#2@131"Link /Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama Button292261404#292261404#0(0"0(0#0#0"4300885448#622"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/martin/Projects/Drama/Drama Button/build/Release" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" -filelist "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama Button.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/Drama Button"0#
 
 CLd "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama Button" normal ppc
-s292260693.176545
-e292260693.229885
+s292261404.461903
+e292261404.499346
 r1
 xLd
 x/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama Button
 xnormal
 xppc
-lSLF07#2@130"Link /Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama Button292260693#292260693#0(0"0(0#0#0"4300885448#619"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/martin/Projects/Drama/Drama Button/build/Release" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" -filelist "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama Button.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama Button"0#
+lSLF07#2@130"Link /Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama Button292261404#292261404#0(0"0(0#0#0"4300885448#619"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/martin/Projects/Drama/Drama Button/build/Release" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" -filelist "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama Button.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama Button"0#
 
 CLd "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama Button" normal x86_64
-s292260692.617058
-e292260692.884241
+s292261404.174890
+e292261404.226475
 r1
 xLd
 x/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama Button
 xnormal
 xx86_64
-lSLF07#2@133"Link /Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama Button292260692#292260692#0(0"0(0#0#0"4300885448#628"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/martin/Projects/Drama/Drama Button/build/Release" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" -filelist "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama Button.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama Button"0#
+lSLF07#2@133"Link /Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama Button292261404#292261404#0(0"0(0#0#0"4300885448#628"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/martin/Projects/Drama/Drama Button/build/Release" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" -filelist "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama Button.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/Drama Button"0#
 
 CProcessInfoPlistFile "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Info.plist" Drama_Button-Info.plist
 s292259571.404604
@@ -699,10 +699,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@34"Precompile Drama_Button_Prefix.pch292259572#292259599#0(0"0(0#0#65"/Users/martin/Projects/Drama/Drama Button/Drama_Button_Prefix.pch4300885448#1531"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" "-I/Users/martin/Projects/Drama/Drama Button/build/Release/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources/i386" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources" -c "/Users/martin/Projects/Drama/Drama Button/Drama_Button_Prefix.pch" -o /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-gokjbukvajhrbxefzqgkimtfryhq/Drama_Button_Prefix.pch.gch0#
 
 CTouch "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app"
-s292260693.342231
-e292260693.345353
+s292261404.522960
+e292261404.526171
 r1
 xTouch
 x/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app
-lSLF07#2@78"Touch /Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app292260693#292260693#0(0"0(0#0#0"4300885448#148"    cd "/Users/martin/Projects/Drama/Drama Button"    /usr/bin/touch -c "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app"0#
+lSLF07#2@78"Touch /Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app292261404#292261404#0(0"0(0#0#0"4300885448#148"    cd "/Users/martin/Projects/Drama/Drama Button"    /usr/bin/touch -c "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app"0#
 

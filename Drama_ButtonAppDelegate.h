@@ -16,6 +16,8 @@
 	
 	IBOutlet NSMenuItem *randomMenuItem;
 	IBOutlet NSMenuItem *alwaysPlayItem;
+	
+	IBOutlet NSMenuItem *alwaysOnTopMenuItem;
 }
 
 @property (assign) IBOutlet NSWindow *window;
@@ -23,4 +25,6 @@
 - (IBAction)playDrama:(id)sender;
 - (int)getRandomNumber:(int)from to:(int)to;
 - (IBAction)randomSettingChanged:(id)sender;
+
+- (IBAction)alwaysOnTopSettingChanged:(id)sender; 
 @end

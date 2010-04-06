@@ -1389,7 +1389,7 @@
 				<string key="NSTitle"/>
 				<object class="NSMutableArray" key="NSMenuItems">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="NSMenuItem" id="746139414">
+					<object class="NSMenuItem" id="667085192">
 						<reference key="NSMenu" ref="175767804"/>
 						<string key="NSTitle">Drama!</string>
 						<string key="NSKeyEquiv"/>
@@ -1397,7 +1397,7 @@
 						<reference key="NSOnImage" ref="35465992"/>
 						<reference key="NSMixedImage" ref="502551668"/>
 					</object>
-					<object class="NSMenuItem" id="697218860">
+					<object class="NSMenuItem" id="507089095">
 						<reference key="NSMenu" ref="175767804"/>
 						<bool key="NSIsDisabled">YES</bool>
 						<bool key="NSIsSeparator">YES</bool>
@@ -1413,6 +1413,14 @@
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<int key="NSState">1</int>
+						<reference key="NSOnImage" ref="35465992"/>
+						<reference key="NSMixedImage" ref="502551668"/>
+					</object>
+					<object class="NSMenuItem" id="57751441">
+						<reference key="NSMenu" ref="175767804"/>
+						<string key="NSTitle">Keep on Top</string>
+						<string key="NSKeyEquiv"/>
+						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="35465992"/>
 						<reference key="NSMixedImage" ref="502551668"/>
 					</object>
@@ -1449,7 +1457,7 @@
 						<reference key="NSOnImage" ref="35465992"/>
 						<reference key="NSMixedImage" ref="502551668"/>
 					</object>
-					<object class="NSMenuItem" id="1059651028">
+					<object class="NSMenuItem" id="788693014">
 						<reference key="NSMenu" ref="175767804"/>
 						<string key="NSTitle">About Drama Button </string>
 						<string key="NSKeyEquiv"/>
@@ -1469,6 +1477,10 @@
 				</object>
 			</object>
 			<object class="NSUserDefaultsController" id="985908917">
+				<object class="NSMutableArray" key="NSDeclaredKeys">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+					<string>alwaysOnTop</string>
+				</object>
 				<bool key="NSSharedInstance">YES</bool>
 			</object>
 		</object>
@@ -2244,7 +2256,7 @@
 					<object class="IBActionConnection" key="connection">
 						<string key="label">playDrama:</string>
 						<reference key="source" ref="976324537"/>
-						<reference key="destination" ref="746139414"/>
+						<reference key="destination" ref="667085192"/>
 					</object>
 					<int key="connectionID">575</int>
 				</object>
@@ -2268,9 +2280,45 @@
 					<object class="IBActionConnection" key="connection">
 						<string key="label">orderFrontStandardAboutPanel:</string>
 						<reference key="source" ref="1050"/>
-						<reference key="destination" ref="1059651028"/>
+						<reference key="destination" ref="788693014"/>
 					</object>
 					<int key="connectionID">579</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">alwaysOnTopSettingChanged:</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="57751441"/>
+					</object>
+					<int key="connectionID">581</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">alwaysOnTopMenuItem</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="57751441"/>
+					</object>
+					<int key="connectionID">582</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.alwaysOnTop</string>
+						<reference key="source" ref="57751441"/>
+						<reference key="destination" ref="985908917"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="57751441"/>
+							<reference key="NSDestination" ref="985908917"/>
+							<string key="NSLabel">value: values.alwaysOnTop</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.alwaysOnTop</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSValidatesImmediately</string>
+								<boolean value="YES" key="NS.object.0"/>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">585</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -3335,9 +3383,10 @@
 							<reference ref="786650664"/>
 							<reference ref="281128103"/>
 							<reference ref="976442115"/>
-							<reference ref="697218860"/>
-							<reference ref="746139414"/>
-							<reference ref="1059651028"/>
+							<reference ref="507089095"/>
+							<reference ref="667085192"/>
+							<reference ref="788693014"/>
+							<reference ref="57751441"/>
 						</object>
 						<reference key="parent" ref="0"/>
 						<string key="objectName">Context Menu</string>
@@ -3401,17 +3450,22 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">573</int>
-						<reference key="object" ref="697218860"/>
+						<reference key="object" ref="507089095"/>
 						<reference key="parent" ref="175767804"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">574</int>
-						<reference key="object" ref="746139414"/>
+						<reference key="object" ref="667085192"/>
 						<reference key="parent" ref="175767804"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">578</int>
-						<reference key="object" ref="1059651028"/>
+						<reference key="object" ref="788693014"/>
+						<reference key="parent" ref="175767804"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">580</int>
+						<reference key="object" ref="57751441"/>
 						<reference key="parent" ref="175767804"/>
 					</object>
 				</object>
@@ -3660,6 +3714,7 @@
 					<string>578.IBPluginDependency</string>
 					<string>58.IBPluginDependency</string>
 					<string>58.ImportedFromIB2</string>
+					<string>580.IBPluginDependency</string>
 					<string>72.IBPluginDependency</string>
 					<string>72.ImportedFromIB2</string>
 					<string>73.IBPluginDependency</string>
@@ -3906,7 +3961,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{487, 505}, {220, 123}}</string>
+					<string>{{486, 487}, {220, 143}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3929,6 +3984,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3973,7 +4029,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">579</int>
+			<int key="maxID">585</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3993,11 +4049,13 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>alwaysOnTopSettingChanged:</string>
 							<string>playDrama:</string>
 							<string>randomSettingChanged:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 						</object>
@@ -4006,6 +4064,7 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>alwaysOnTopMenuItem</string>
 							<string>alwaysPlayItem</string>
 							<string>contextMenu</string>
 							<string>randomMenuItem</string>
@@ -4013,6 +4072,7 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>NSMenuItem</string>
 							<string>NSMenuItem</string>
 							<string>NSMenu</string>
 							<string>NSMenuItem</string>
