@@ -13,6 +13,16 @@
 @synthesize window;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+	// Listen to command-option-control-D
+	id block = ^(NSEvent* event){
+		NSLog(@"%@", event);
+		if ([event modifierFlags] & (NSAlternateKeyMask | NSCommandKeyMask | NSControlKeyMask) && ([event keyCode] == 2)) { // 2: d key
+			[[NSNotificationCenter defaultCenter] postNotificationName:@"playDrama" object:nil];
+		}
+	};
+	[NSEvent addGlobalMonitorForEventsMatchingMask:NSKeyDownMask handler: block];
+	
+
 	soundsArray = [[NSArray alloc] initWithObjects:
 					   [NSSound soundNamed:@"drama1.wav"], 
 					   [NSSound soundNamed:@"drama2.wav"], 
@@ -20,7 +30,7 @@
 					   [NSSound soundNamed:@"drama4.mp3"], nil];
 	
 	[alwaysPlayItem setHidden:YES];
-
+	
 	
 	if ([alwaysOnTopMenuItem state] == NSOnState)
 		[window setLevel:NSScreenSaverWindowLevel];
@@ -30,7 +40,15 @@
 
 - (void)awakeFromNib
 {
-  
+	[[NSNotificationCenter defaultCenter] addObserver:self 
+											 selector:@selector(playDrama:) 
+												 name:@"playDrama"
+											   object:nil];
+	[[NSNotificationCenter defaultCenter] addObserver:self 
+											 selector:@selector(foo:) 
+												 name:@"foo"
+											   object:nil];
+	
 	 NSStatusBar *bar = [NSStatusBar systemStatusBar];
 	 NSStatusItem *theItem = [[NSStatusItem alloc] init];
 	 

@@ -27,4 +27,5 @@
 - (IBAction)randomSettingChanged:(id)sender;
 
 - (IBAction)alwaysOnTopSettingChanged:(id)sender; 
+
 @end
