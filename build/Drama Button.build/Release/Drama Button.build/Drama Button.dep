@@ -1,3 +1,5 @@
+7b0a76d49c30132ca28d633a6247fbe8 fcd6afc58479118cce69d9050f45d827 ffffffffffffffffffffffffffffffff 102 /Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app
+000000004bbb587b0000000000031494 ba858ec82923eeb9c751769ac67c64c8 ffffffffffffffffffffffffffffffff 39468 /Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources/English.lproj/MainMenu.nib
 28a9fb3fe71cb5c3e6fada850ec37be3 89b58402db5186727b2891c0b052b923 ffffffffffffffffffffffffffffffff 4904 /Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/DramaButtonButton.o
 2459c0bc6bdfd13e9b338a73c6acb2ad 470680f1096899a2cb176fc548d24280 ffffffffffffffffffffffffffffffff 4836 /Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/DramaButtonButton.o
 38034e1d70a20135eb311bf839e3e81d c232ddcba3bfd227f2dcf0d0a12a1d02 ffffffffffffffffffffffffffffffff 5568 /Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/DramaButtonButton.o
@@ -14,7 +16,6 @@
 2459c0bc2064f8f99b338a73c6acb3a3 4a386df5b98cd6d68164615f48a5baa7 ffffffffffffffffffffffffffffffff 4856 /Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/main.o
 38034e1d3b1928f2eb311bf839e3e913 e2a49190ba02e9ecb40946ea976b236f ffffffffffffffffffffffffffffffff 5056 /Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/main.o
 00000000000000000000000000000000 319451d7ddf1e9273c822a404a8c5aed ffffffffffffffffffffffffffffffff 102 /Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app.dSYM
-7b0a76d49c301c86a28d633a6247fbe7 fcd6afc58479118cce69d9050f45d827 ffffffffffffffffffffffffffffffff 102 /Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app
 10f6d93944f5800dd52d294ee2a8e728 9deb3bad7aa9a36426a0e6dd3b0f76fd ffffffffffffffffffffffffffffffff 69640 /Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/MacOS/Drama Button
 b6f7c30e229c2cc8a88dc8fcf05c5e09 01af68f92ec23cae5ee4c1f19d988a47 ffffffffffffffffffffffffffffffff 20488 /Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/ppc/Drama Button
 000000000b7f824f000000000000017e 28a9fb3faca79c04e6fada850ec37b72 ffffffffffffffffffffffffffffffff 50057456 /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-anzjadavwoplmmcnddqqpdanwshe/Drama_Button_Prefix.pch.gch
@@ -29,7 +30,6 @@ e79fa18acc733eaf804f1ff118475b56 56e0ddd1a9ffd5adeb999495afcceeab ffffffffffffff
 00000000000000000000000000000000 be1ee73c936e2f13ee07e13eaa2468dc ffffffffffffffffffffffffffffffff 424540 /Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources/drama3.wav
 00000000000000000000000000000000 0a55f73233a145b9a83f866e68155c94 ffffffffffffffffffffffffffffffff 572928 /Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources/drama2.wav
 00000000000000000000000000000000 897c9b35a162bc07cdf0ee1b613eb5c2 ffffffffffffffffffffffffffffffff 530380 /Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources/drama1.wav
-000000004bbb57d1000000000003149b ba858ec82923eeb9c751769ac67c64c8 ffffffffffffffffffffffffffffffff 39468 /Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources/English.lproj/MainMenu.nib
 000000004bbb2827000000000000002d cec10dfafe95e19cf262896fec108965 ffffffffffffffffffffffffffffffff 92 /Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources/English.lproj/InfoPlist.strings
 00000000000000000000000000000000 5ba64f3d1948b671449a009ddb2546ff ffffffffffffffffffffffffffffffff 8 /Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/PkgInfo
 00000000000000000000000000000000 5ba64f3d1948b671449a009ddb2546ff ffffffffffffffffffffffffffffffff 930 /Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Info.plist

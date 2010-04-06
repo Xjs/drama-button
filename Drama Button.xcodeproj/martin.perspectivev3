@@ -298,7 +298,7 @@
 							<real>299</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>-1 118 1280 660 0 0 1280 778 </string>
+						<string>0 118 1280 660 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -328,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5BB9DE8E116B8F9400242AD8</string>
+										<string>5BC66A10116B90020082E3FB</string>
 										<key>history</key>
 										<array>
 											<string>5B511762116B732800AC3AC1</string>
@@ -343,7 +343,7 @@
 											<string>5BF1FA16116B87E900967AAB</string>
 											<string>5BF1FA17116B87E900967AAB</string>
 											<string>5BF1FA5D116B8CBA00967AAB</string>
-											<string>5BB9DE6A116B8D8B00242AD8</string>
+											<string>5BB9DE94116B8FE400242AD8</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -357,18 +357,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {959, 491}}</string>
+								<string>{{0, 0}, {959, 487}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-1 118 1280 660 0 0 1280 778 </string>
+								<string>0 118 1280 660 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>491pt</string>
+							<string>487pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>123pt</string>
+							<string>127pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -382,9 +382,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {959, 96}}</string>
+										<string>{{10, 27}, {959, 100}}</string>
 										<key>RubberWindowFrame</key>
-										<string>-1 118 1280 660 0 0 1280 778 </string>
+										<string>0 118 1280 660 0 0 1280 778 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -466,11 +466,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>5BB9DE54116B8D6C00242AD8</string>
+				<string>5BC66A11116B90020082E3FB</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>5BB9DE55116B8D6C00242AD8</string>
+				<string>5BC66A12116B90020082E3FB</string>
 				<string>5B5115DE116B5FB200AC3AC1</string>
-				<string>5BB9DE56116B8D6C00242AD8</string>
+				<string>5BC66A13116B90020082E3FB</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -619,14 +619,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>5BB9DE57116B8D6C00242AD8</string>
+				<string>5BC66A14116B90020082E3FB</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>5BB9DE58116B8D6C00242AD8</string>
-				<string>5BB9DE59116B8D6C00242AD8</string>
-				<string>5BB9DE5A116B8D6C00242AD8</string>
-				<string>5BB9DE5B116B8D6C00242AD8</string>
-				<string>5BB9DE5C116B8D6C00242AD8</string>
+				<string>5BC66A15116B90020082E3FB</string>
+				<string>5BC66A16116B90020082E3FB</string>
+				<string>5BC66A17116B90020082E3FB</string>
+				<string>5BC66A18116B90020082E3FB</string>
+				<string>5BC66A19116B90020082E3FB</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -660,13 +660,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>5BB9DE8F116B8F9400242AD8</string>
-		<string>5BB9DE5E116B8D6C00242AD8</string>
-		<string>5BB9DE5F116B8D6C00242AD8</string>
+		<string>5BC66A1A116B90020082E3FB</string>
+		<string>5BC66A1B116B90020082E3FB</string>
+		<string>5BC66A1C116B90020082E3FB</string>
 		<string>/Users/martin/Projects/Drama/Drama Button/Drama Button.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>-1 118 1280 660 0 0 1280 778 </string>
+	<string>0 118 1280 660 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -1039,7 +1039,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D5B069F1CE1000CFCEE</string>
-				<string>5BF1FA7D116B8D5700967AAB</string>
+				<string>5BB9DE95116B8FE400242AD8</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

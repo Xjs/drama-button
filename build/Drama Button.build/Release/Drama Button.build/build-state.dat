@@ -1,7 +1,7 @@
 TDrama Button
 v7
 r0
-t292261803.066573
+t292261889.909650
 cCheck dependencies
 cProcessInfoPlistFile "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Info.plist" Drama_Button-Info.plist
 cCopyStringsFile "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
@@ -106,9 +106,9 @@ t1270556711
 s45
 
 N/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib
-c000000004BBB57D1000000000003149B
-t1270568913
-s201883
+c000000004BBB587B0000000000031494
+t1270569083
+s201876
 
 N/Users/martin/Projects/Drama/Drama Button/RoundedView.h
 c000000004BBB371500000000000000D7
@@ -210,7 +210,7 @@ t1270566805
 s5056
 
 N/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app
-t1270568980
+t1270569089
 s102
 
 N/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app.dSYM
@@ -238,7 +238,7 @@ t1270566771
 s92
 
 N/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources/English.lproj/MainMenu.nib
-t1270568917
+t1270569089
 s39468
 
 N/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources/drama.png
@@ -320,7 +320,7 @@ s1031
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies292261803#292261803#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies292261888#292261888#0(0"0(0#1#0"32088628383449192#0"0#
 
 CCompileC "build/Drama Button.build/Release/Drama Button.build/Objects-normal/i386/BorderlessWindow.o" "/Users/martin/Projects/Drama/Drama Button/BorderlessWindow.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s292259610.983451
@@ -518,8 +518,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@56"Compile /Users/martin/Projects/Drama/Drama Button/main.m292259604#292259605#0(0"0(0#0#48"/Users/martin/Projects/Drama/Drama Button/main.m4300885448#1641"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" "-I/Users/martin/Projects/Drama/Drama Button/build/Release/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources/x86_64" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources" -include /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-eevigcfdtyohxhfnvqbzuzfwgzor/Drama_Button_Prefix.pch -c "/Users/martin/Projects/Drama/Drama Button/main.m" -o "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Objects-normal/x86_64/main.o"0#
 
 CCompileXIB "/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib"
-s292261716.835150
-e292261717.530094
+s292261888.724327
+e292261889.896042
 r1
 xCompileXIB
 x/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib
@@ -527,7 +527,7 @@ o/* com.apple.ibtool.document.notices */
 o/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib:566: note: This view is clipping its content.
 o/* com.apple.ibtool.document.warnings */
 o/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib:371: warning: "HUD Window Mask" is only available on NSPanel instances.  To rectify, change the custom class to NSPanel and use the Attributes inspector.
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib292261716#292261717#0(419"/* com.apple.ibtool.document.notices *//Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib:566: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib:371: warning: "HUD Window Mask" is only available on NSPanel instances.  To rectify, change the custom class to NSPanel and use the Attributes inspector.2(13@34"This view is clipping its content.292261717#18446744073709551615#0#0(6@68"/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib292261713#566#0#566#0#0"0(22@139""HUD Window Mask" is only available on NSPanel instances.  To rectify, change the custom class to NSPanel and use the Attributes inspector.292261717#18446744073709551615#0#0(6@68"/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib292261713#371#0#371#0#0"0(0#0#68"/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib4300885448#349"    cd "/Users/martin/Projects/Drama/Drama Button"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib"0#
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib292261888#292261889#0(419"/* com.apple.ibtool.document.notices *//Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib:566: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib:371: warning: "HUD Window Mask" is only available on NSPanel instances.  To rectify, change the custom class to NSPanel and use the Attributes inspector.2(13@34"This view is clipping its content.292261889#18446744073709551615#0#0(6@68"/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib292261883#566#0#566#0#0"0(22@139""HUD Window Mask" is only available on NSPanel instances.  To rectify, change the custom class to NSPanel and use the Attributes inspector.292261889#18446744073709551615#0#0(6@68"/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib292261883#371#0#371#0#0"0(0#0#68"/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib32088490945478768#349"    cd "/Users/martin/Projects/Drama/Drama Button"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/martin/Projects/Drama/Drama Button/English.lproj/MainMenu.xib"0#
 
 CCopyStringsFile "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
 s292259571.408659
@@ -699,10 +699,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@34"Precompile Drama_Button_Prefix.pch292259572#292259599#0(0"0(0#0#65"/Users/martin/Projects/Drama/Drama Button/Drama_Button_Prefix.pch4300885448#1531"    cd "/Users/martin/Projects/Drama/Drama Button"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-generated-files.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-own-target-headers.hmap" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-all-target-headers.hmap" -iquote "/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/Drama Button-project-headers.hmap" "-F/Users/martin/Projects/Drama/Drama Button/build/Release" "-I/Users/martin/Projects/Drama/Drama Button/build/Release/include" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources/i386" "-I/Users/martin/Projects/Drama/Drama Button/build/Drama Button.build/Release/Drama Button.build/DerivedSources" -c "/Users/martin/Projects/Drama/Drama Button/Drama_Button_Prefix.pch" -o /var/folders/1h/1hnpPfnlF4md0ftEe30uWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Drama_Button_Prefix-gokjbukvajhrbxefzqgkimtfryhq/Drama_Button_Prefix.pch.gch0#
 
 CTouch "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app"
-s292261780.297662
-e292261780.301000
+s292261889.899470
+e292261889.909584
 r1
 xTouch
 x/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app
-lSLF07#2@78"Touch /Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app292261780#292261780#0(0"0(0#0#0"4300885448#148"    cd "/Users/martin/Projects/Drama/Drama Button"    /usr/bin/touch -c "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app"0#
+lSLF07#2@78"Touch /Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app292261889#292261889#0(0"0(0#0#0"32088439405871204#148"    cd "/Users/martin/Projects/Drama/Drama Button"    /usr/bin/touch -c "/Users/martin/Projects/Drama/Drama Button/build/Release/Drama Button.app"0#
 
