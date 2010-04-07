@@ -35,7 +35,7 @@
 	
 	
 	if ([alwaysOnTopMenuItem state] == NSOnState)
-		[window setLevel:NSScreenSaverWindowLevel];
+		[window setLevel:NSFloatingWindowLevel];
 	else 
 		[window setLevel:NSNormalWindowLevel];
 }
@@ -81,7 +81,7 @@
 
 - (IBAction)alwaysOnTopSettingChanged:(id)sender {
 	if (![alwaysOnTopMenuItem state] == NSOnState)
-		[window setLevel:NSScreenSaverWindowLevel];
+		[window setLevel:NSFloatingWindowLevel];
 	else 
 		[window setLevel:NSNormalWindowLevel];
 }
