@@ -246,7 +246,7 @@
 									<object class="NSTextFieldCell" key="NSCell" id="128906412">
 										<int key="NSCellFlags">68288064</int>
 										<int key="NSCellFlags2">1212187648</int>
-										<string key="NSContents">Hint: Control-click for a menu.</string>
+										<string key="NSContents">Control-click for a menu.</string>
 										<object class="NSFont" key="NSSupport">
 											<string key="NSName">LucidaGrande</string>
 											<double key="NSSize">9</double>
