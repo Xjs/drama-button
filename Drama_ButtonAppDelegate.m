@@ -15,7 +15,6 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Listen to command-option-control-D
 	id block = ^(NSEvent* event){
-		NSLog(@"%@", event);
 		if ([event modifierFlags] & NSAlternateKeyMask &&
 			[event modifierFlags] & NSCommandKeyMask &&
 			[event modifierFlags] & NSControlKeyMask &&
@@ -43,14 +42,19 @@
 
 - (void)awakeFromNib
 {
-	[[NSNotificationCenter defaultCenter] addObserver:self 
-											 selector:@selector(playDrama:) 
-												 name:@"playDrama"
-											   object:nil];
-	[[NSNotificationCenter defaultCenter] addObserver:self 
-											 selector:@selector(foo:) 
-												 name:@"foo"
-											   object:nil];
+	NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
+	[nc addObserver:self 
+		   selector:@selector(playDrama:) 
+			   name:@"playDrama"
+			 object:nil];
+	[nc addObserver:self 
+		   selector:@selector(mouseEntered:) 
+			   name:@"mouseEntered"
+			 object:nil];
+	[nc addObserver:self 
+		   selector:@selector(mouseExited:) 
+			   name:@"mouseExited"
+			 object:nil];
 	
 	 NSStatusBar *bar = [NSStatusBar systemStatusBar];
 	 NSStatusItem *theItem = [[NSStatusItem alloc] init];
@@ -80,13 +84,19 @@
 		[window setLevel:NSScreenSaverWindowLevel];
 	else 
 		[window setLevel:NSNormalWindowLevel];
-	
-
 }
 
--(int)getRandomNumber:(int)from to:(int)to {
+- (int) getRandomNumber:(int)from to:(int)to {
 	42;
 	return (int)from + arc4random() % (to-from+1);
+}
+
+- (void) mouseEntered:(id)object {
+	[[contextInfoLabel animator] setAlphaValue:1.0];
+}
+
+- (void) mouseExited:(id)object {
+	[[contextInfoLabel animator] setAlphaValue:0.0];
 }
 
 @end

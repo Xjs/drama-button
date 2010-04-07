@@ -15,6 +15,11 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code here.
+        NSTrackingArea *trackingArea = [[NSTrackingArea alloc]
+						   initWithRect:frame
+								options:(NSTrackingMouseEnteredAndExited | NSTrackingActiveAlways | NSTrackingInVisibleRect)
+								  owner:self userInfo:nil];
+        [self addTrackingArea:trackingArea];
     }
     return self;
 }
@@ -35,6 +40,14 @@
 	
 	[[NSColor whiteColor] set];
 	[textViewSurround stroke];
+}
+
+- (void)mouseEntered:(NSEvent *)theEvent {
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"mouseEntered" object:nil];
+}
+
+- (void)mouseExited:(NSEvent *)theEvent {
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"mouseExited" object:nil];
 }
 
 @end

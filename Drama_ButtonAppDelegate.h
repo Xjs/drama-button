@@ -11,6 +11,7 @@
 @interface Drama_ButtonAppDelegate : NSObject {
     NSWindow *window;
 	NSArray *soundsArray;
+	IBOutlet NSTextField *contextInfoLabel;
 	
 	IBOutlet NSMenu *contextMenu;
 	
@@ -26,6 +27,9 @@
 - (int)getRandomNumber:(int)from to:(int)to;
 - (IBAction)randomSettingChanged:(id)sender;
 
-- (IBAction)alwaysOnTopSettingChanged:(id)sender; 
+- (IBAction)alwaysOnTopSettingChanged:(id)sender;
+
+- (void) mouseEntered: (id) object;
+- (void) mouseExited: (id) object;
 
 @end
