@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <Carbon/Carbon.h>
 
 @interface Drama_ButtonAppDelegate : NSObject {
     NSWindow *window;
@@ -32,4 +33,7 @@
 - (void) mouseEntered: (id) object;
 - (void) mouseExited: (id) object;
 
+OSStatus handler(EventHandlerCallRef nextHandler, EventRef theEvent, void* userData);
+
 @end
+

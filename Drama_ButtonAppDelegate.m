@@ -8,13 +8,14 @@
 
 #import "Drama_ButtonAppDelegate.h"
 
+
 @implementation Drama_ButtonAppDelegate
 
 @synthesize window;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Listen to command-option-control-D
-	id block = ^(NSEvent* event){
+	/* COCOA id block = ^(NSEvent* event){
 		if ([event modifierFlags] & NSAlternateKeyMask &&
 			[event modifierFlags] & NSCommandKeyMask &&
 			[event modifierFlags] & NSControlKeyMask &&
@@ -22,7 +23,7 @@
 			[[NSNotificationCenter defaultCenter] postNotificationName:@"playDrama" object:nil];
 		}
 	};
-	[NSEvent addGlobalMonitorForEventsMatchingMask:NSKeyDownMask handler: block];
+	[NSEvent addGlobalMonitorForEventsMatchingMask:NSKeyDownMask handler: block];*/
 	
 
 	soundsArray = [[NSArray alloc] initWithObjects:
@@ -65,12 +66,33 @@
 	 [theItem setTitle: NSLocalizedString(@"☁",@"")];
 	 [theItem setHighlightMode:YES];
 	 [theItem setMenu:contextMenu];
+	
+	/* CARBON */
+	
+	EventTypeSpec eventType;
+	eventType.eventClass = kEventClassKeyboard;
+	eventType.eventKind  = kEventHotKeyPressed;
+	
+	InstallApplicationEventHandler(&handler, 1, &eventType, NULL, NULL);
+	
+	EventHotKeyID g_HotKeyID;
+	g_HotKeyID.id = 1;
+	
+	EventHotKeyRef g_HotKeyRef;
+	
+	RegisterEventHotKey(2, controlKey + cmdKey + optionKey, g_HotKeyID, GetApplicationEventTarget(), 0, &g_HotKeyRef);
+	
 }
 
 - (IBAction)randomSettingChanged:(id)sender {
 	[alwaysPlayItem setEnabled:[randomMenuItem state]];
 }
 
+
+
+
+ 
+ 
 - (IBAction)playDrama:(id)sender {	
 	if ([randomMenuItem state] == 1)
 		[[soundsArray objectAtIndex:[self getRandomNumber:0 to:[soundsArray count]-1]] play];
@@ -97,6 +119,15 @@
 
 - (void) mouseExited:(id)object {
 	[[contextInfoLabel animator] setAlphaValue:0.0];
+}
+
+
+/* CARBON */
+
+OSStatus handler(EventHandlerCallRef nextHandler, EventRef theEvent, void* userData)
+{
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"playDrama" object:nil];
+	return noErr;
 }
 
 @end
