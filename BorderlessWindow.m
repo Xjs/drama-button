@@ -27,6 +27,9 @@
 		[self setBackgroundColor:[NSColor clearColor]];
 		
 		[self setOpaque:NO];
+		[[self windowController] setShouldCascadeWindows:NO];      // Tell the controller to not cascade its windows.
+		[self setFrameAutosaveName:[self representedFilename]];  // Specify the autosave name for the window.
+
     }
     return self;
 }

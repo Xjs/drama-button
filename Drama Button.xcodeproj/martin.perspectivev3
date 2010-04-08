@@ -276,7 +276,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>16</integer>
+									<integer>22</integer>
 									<integer>11</integer>
 									<integer>0</integer>
 								</array>
@@ -315,7 +315,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>5B5115DE116B5FB200AC3AC1</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Drama_Button-Info.plist</string>
+								<string>BorderlessWindow.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,11 +323,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>5B5115DF116B5FB200AC3AC1</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Drama_Button-Info.plist</string>
+										<string>BorderlessWindow.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5B9469EE116DFEE70072882D</string>
+										<string>5B946A3B116E06760072882D</string>
 										<key>history</key>
 										<array>
 											<string>5B511762116B732800AC3AC1</string>
@@ -336,13 +336,11 @@
 											<string>5BF1F9A1116B83BE00967AAB</string>
 											<string>5BF1FA13116B87E900967AAB</string>
 											<string>5BF1FA14116B87E900967AAB</string>
-											<string>5BF1FA16116B87E900967AAB</string>
 											<string>5BF1FA17116B87E900967AAB</string>
 											<string>5B54B6D7116D298A00CCF2E0</string>
-											<string>5B9469C7116DFC580072882D</string>
-											<string>5B9469EB116DFEE70072882D</string>
-											<string>5B9469EC116DFEE70072882D</string>
-											<string>5B9469ED116DFEE70072882D</string>
+											<string>5B946A38116E06760072882D</string>
+											<string>5B946A39116E06760072882D</string>
+											<string>5B946A3A116E06760072882D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -356,18 +354,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {959, 442}}</string>
+								<string>{{0, 0}, {959, 430}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 119 1280 659 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>442pt</string>
+							<string>430pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>171pt</string>
+							<string>183pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -381,7 +379,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {959, 56}}</string>
+										<string>{{10, 27}, {959, 156}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -435,7 +433,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {959, 144}}</string>
+										<string>{{10, 27}, {959, 156}}</string>
 										<key>RubberWindowFrame</key>
 										<string>0 119 1280 659 0 0 1280 778 </string>
 									</dict>
@@ -465,11 +463,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>5B946986116DF9BB0072882D</string>
+				<string>5B946A2F116E05D60072882D</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>5B946987116DF9BB0072882D</string>
+				<string>5B946A30116E05D60072882D</string>
 				<string>5B5115DE116B5FB200AC3AC1</string>
-				<string>5B946988116DF9BB0072882D</string>
+				<string>5B946A31116E05D60072882D</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -618,14 +616,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>5B946989116DF9BB0072882D</string>
+				<string>5B946A3C116E06760072882D</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>5B94698A116DF9BB0072882D</string>
-				<string>5B94698B116DF9BB0072882D</string>
-				<string>5B94698C116DF9BB0072882D</string>
-				<string>5B94698D116DF9BB0072882D</string>
-				<string>5B94698E116DF9BB0072882D</string>
+				<string>5B946A3D116E06760072882D</string>
+				<string>5B946A3E116E06760072882D</string>
+				<string>5B946A3F116E06760072882D</string>
+				<string>5B946A40116E06760072882D</string>
+				<string>5B946A41116E06760072882D</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -659,9 +657,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>5B9469EF116DFEE70072882D</string>
-		<string>5B946990116DF9BB0072882D</string>
-		<string>5B946991116DF9BB0072882D</string>
+		<string>5B946A42116E06760072882D</string>
+		<string>5B946A43116E06760072882D</string>
+		<string>5B946A44116E06760072882D</string>
 		<string>/Users/martin/Projects/Drama/Drama Button/Drama Button.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
