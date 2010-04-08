@@ -17,6 +17,7 @@
 		5B5116F3116B6E9500AC3AC1 /* RoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5116F2116B6E9500AC3AC1 /* RoundedView.m */; };
 		5B51175D116B710400AC3AC1 /* DramaButtonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B51175C116B710400AC3AC1 /* DramaButtonButton.m */; };
 		5B94699E116DFADA0072882D /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B94699D116DFADA0072882D /* Carbon.framework */; };
+		5B9469E4116DFEC60072882D /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5B9469E3116DFEC60072882D /* AppIcon.icns */; };
 		5BF1F925116B7C0C00967AAB /* drama.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF1F924116B7C0C00967AAB /* drama.png */; };
 		5BF1F96F116B816200967AAB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5BF1F96E116B816200967AAB /* Credits.rtf */; };
 		5BF1F9FB116B859800967AAB /* dramaclicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF1F9FA116B859800967AAB /* dramaclicked.png */; };
@@ -47,6 +48,7 @@
 		5B51175B116B710400AC3AC1 /* DramaButtonButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DramaButtonButton.h; sourceTree = "<group>"; };
 		5B51175C116B710400AC3AC1 /* DramaButtonButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DramaButtonButton.m; sourceTree = "<group>"; };
 		5B94699D116DFADA0072882D /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		5B9469E3116DFEC60072882D /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
 		5BF1F924116B7C0C00967AAB /* drama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drama.png; sourceTree = "<group>"; };
 		5BF1F96E116B816200967AAB /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		5BF1F9FA116B859800967AAB /* dramaclicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dramaclicked.png; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				5B5115E8116B65B400AC3AC1 /* drama2.wav */,
 				5B5115EA116B65BD00AC3AC1 /* drama3.wav */,
 				5B511608116B66D900AC3AC1 /* drama4.mp3 */,
+				5B9469E3116DFEC60072882D /* AppIcon.icns */,
 				5BF1F9FA116B859800967AAB /* dramaclicked.png */,
 				5BF1F924116B7C0C00967AAB /* drama.png */,
 				5BF1F96E116B816200967AAB /* Credits.rtf */,
@@ -208,6 +211,7 @@
 				5BF1F925116B7C0C00967AAB /* drama.png in Resources */,
 				5BF1F96F116B816200967AAB /* Credits.rtf in Resources */,
 				5BF1F9FB116B859800967AAB /* dramaclicked.png in Resources */,
+				5B9469E4116DFEC60072882D /* AppIcon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

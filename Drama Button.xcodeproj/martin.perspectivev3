@@ -276,6 +276,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>16</integer>
+									<integer>11</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -308,14 +310,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>5B5115DE116B5FB200AC3AC1</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Drama_ButtonAppDelegate.m</string>
+								<string>Drama_Button-Info.plist</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,26 +323,26 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>5B5115DF116B5FB200AC3AC1</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Drama_ButtonAppDelegate.m</string>
+										<string>Drama_Button-Info.plist</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5B9469D0116DFCE80072882D</string>
+										<string>5B9469EE116DFEE70072882D</string>
 										<key>history</key>
 										<array>
 											<string>5B511762116B732800AC3AC1</string>
 											<string>5BF1F99E116B83BE00967AAB</string>
 											<string>5BF1F99F116B83BE00967AAB</string>
 											<string>5BF1F9A1116B83BE00967AAB</string>
-											<string>5BF1F9A3116B83BE00967AAB</string>
-											<string>5BF1F9A4116B83BE00967AAB</string>
 											<string>5BF1FA13116B87E900967AAB</string>
 											<string>5BF1FA14116B87E900967AAB</string>
 											<string>5BF1FA16116B87E900967AAB</string>
 											<string>5BF1FA17116B87E900967AAB</string>
 											<string>5B54B6D7116D298A00CCF2E0</string>
 											<string>5B9469C7116DFC580072882D</string>
-											<string>5B9469C8116DFC580072882D</string>
+											<string>5B9469EB116DFEE70072882D</string>
+											<string>5B9469EC116DFEE70072882D</string>
+											<string>5B9469ED116DFEE70072882D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -659,6 +659,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>5B9469EF116DFEE70072882D</string>
 		<string>5B946990116DF9BB0072882D</string>
 		<string>5B946991116DF9BB0072882D</string>
 		<string>/Users/martin/Projects/Drama/Drama Button/Drama Button.xcodeproj</string>
