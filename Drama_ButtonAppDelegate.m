@@ -187,17 +187,18 @@ OSStatus handler(EventHandlerCallRef nextHandler, EventRef theEvent, void* userD
     CALayer *hiddenLayer = [frontView.isHidden ? frontView : notFrontView layer];
     CALayer *visibleLayer = [frontView.isHidden ? notFrontView : frontView layer];
     
-    // Before we can "rotate" the window, we need to make the hidden view look like it's facing backward by rotating it pi radians (180 degrees). We make this its own transaction and supress animation, because this is already the assumed state
+	// Before we can "rotate" the window, we need to make the hidden view look like it's facing backward by rotating it pi radians (180 degrees).
+	// We make this its own transaction and supress animation, because this is already the assumed state
     [CATransaction begin];
 	{
         [CATransaction setValue:[NSNumber numberWithBool:YES] forKey:kCATransactionDisableActions];
         [hiddenLayer setValue:[NSNumber numberWithDouble:M_PI] forKeyPath:@"transform.rotation.y"];
-//        if (self.isDebugging) // Shadows screw up corner finding
-//            [self _hideShadow:YES];
+		//        if (self.isDebugging) // Shadows screw up corner finding
+		//            [self _hideShadow:YES];
     }
 	[CATransaction commit];
     
-    // There's no way to know when we are halfway through the animation, so we have to use a timer. 
+	// There's no way to know when we are halfway through the animation, so we have to use a timer. 
 	// On a sufficiently fast machine (like a Mac) this is close enough.
 	// On something like an iPhone, this can cause minor drawing glitches
     [self performSelector:@selector(_swapViews) withObject:nil afterDelay:flipDuration / 2.0];
@@ -210,6 +211,28 @@ OSStatus handler(EventHandlerCallRef nextHandler, EventRef theEvent, void* userD
 	NSLog(@"foo");
 }
 
+
+#pragma mark NSObject (CAAnimationDelegate)
+
+- (void)animationDidStop:(CAAnimation *)animation finished:(BOOL)flag;
+{
+    // This delegate method allows us to clean up our state
+    if (![animation isKindOfClass:[CAAnimationGroup class]])
+        return;
+	
+    // Our animation is one-way and has been expended, so we can remove them
+    [frontView.layer removeAnimationForKey:@"flipGroup"];
+    [notFrontView.layer removeAnimationForKey:@"flipGroup"];
+    
+    // Although the "back" layer seemed to rotate forward, in reality it's still flipped.
+    [CATransaction begin];
+    // Since this is already our assumed state, do not animate this
+    [CATransaction setValue:[NSNumber numberWithBool:YES] forKey:kCATransactionDisableActions];
+    // Remove all transforms by setting the identity (standard) transform
+    frontView.layer.transform = CATransform3DIdentity;
+    notFrontView.layer.transform = CATransform3DIdentity;
+    [CATransaction commit];
+}
 
 #pragma mark Private
 
