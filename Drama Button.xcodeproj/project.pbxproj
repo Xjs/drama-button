@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		1F81CD0E120B085200174E30 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F81CD0D120B085200174E30 /* QuartzCore.framework */; };
 		256AC3DA0F4B6AC300CF3369 /* Drama_ButtonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* Drama_ButtonAppDelegate.m */; };
 		5B5115E7116B65A800AC3AC1 /* drama1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B5115E6116B65A800AC3AC1 /* drama1.wav */; };
 		5B5115E9116B65B400AC3AC1 /* drama2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B5115E8116B65B400AC3AC1 /* drama2.wav */; };
@@ -31,6 +32,7 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1F81CD0D120B085200174E30 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		256AC3D80F4B6AC300CF3369 /* Drama_ButtonAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drama_ButtonAppDelegate.h; sourceTree = "<group>"; };
 		256AC3D90F4B6AC300CF3369 /* Drama_ButtonAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drama_ButtonAppDelegate.m; sourceTree = "<group>"; };
 		256AC3F00F4B6AF500CF3369 /* Drama_Button_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drama_Button_Prefix.pch; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				5B94699E116DFADA0072882D /* Carbon.framework in Frameworks */,
+				1F81CD0E120B085200174E30 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +90,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F81CD0D120B085200174E30 /* QuartzCore.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 				5B94699D116DFADA0072882D /* Carbon.framework */,
 			);

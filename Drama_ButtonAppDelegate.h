@@ -12,6 +12,10 @@
 @interface Drama_ButtonAppDelegate : NSObject {
     NSWindow *window;
 	NSArray *soundsArray;
+	
+	CGFloat scale;
+    NSInteger distortion;
+    
 	IBOutlet NSTextField *contextInfoLabel;
 	
 	IBOutlet NSMenu *contextMenu;
@@ -20,9 +24,14 @@
 	IBOutlet NSMenuItem *alwaysPlayItem;
 	
 	IBOutlet NSMenuItem *alwaysOnTopMenuItem;
+	
+	IBOutlet NSView *frontView;
+	IBOutlet NSView *notFrontView;
 }
 
-@property (assign) IBOutlet NSWindow *window;
+@property CGFloat scale;
+@property NSInteger distortion;
+
 
 - (IBAction)playDrama:(id)sender;
 - (int)getRandomNumber:(int)from to:(int)to;
@@ -32,6 +41,8 @@
 
 - (void) mouseEntered: (id) object;
 - (void) mouseExited: (id) object;
+
+- (IBAction) flip: (id) sender;
 
 OSStatus handler(EventHandlerCallRef nextHandler, EventRef theEvent, void* userData);
 
